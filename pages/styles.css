@@ -138,6 +138,10 @@ textarea {
     width: 100%;
 }
 
+.text-black p {
+    color: black;
+}
+
 .key-stroke {
     outline: none;
     display: flex;
@@ -172,7 +176,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: white;
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -186,6 +190,7 @@ textarea {
     width: min-content;
     will-change: transform;
     cursor: pointer;
+    margin: auto;
 }
 
 .generate {
@@ -198,7 +203,7 @@ textarea {
 }
 
 .generate p {
-    color: rgb(255, 255, 255);
+    color: black;
     margin: 0;
 }
 
@@ -280,6 +285,7 @@ textarea {
     overflow: hidden;
     position: relative;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .output-header-container {
@@ -323,7 +329,7 @@ textarea {
 .output-content p {
     text-align: center;
     white-space: pre-line;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
 }
 
 @media (min-width: 810px) and (max-width: 1199px) {
